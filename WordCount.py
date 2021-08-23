@@ -3,7 +3,7 @@ def es(x):
         x=str(x)
         words=x.split(" ")
         for word in words:
-            word.lower()
+            word=word.lower()
         toret={}
         while not len(words)==0:
             toret[words[0]]=1
